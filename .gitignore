@@ -1,0 +1,31 @@
+# Allow only C++ files
+!*.cpp
+!*.h
+!*.hpp
+
+# Xcode specific files to ignore
+.DS_Store
+*.xcworkspace/
+*.xcodeproj/
+xcuserdata/
+!xcuserdata/**/*.cpp
+!xcuserdata/**/*.h
+!xcuserdata/**/*.hpp
+*.xcuserstate
+*.xcassets
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcscheme
+
+# Ignore build output but allow C++ files in them
+build/
+!build/**/*.cpp
+!build/**/*.h
+!build/**/*.hpp
+
+# Ignore any backup files
+*.swp
+*.swo
+*~
